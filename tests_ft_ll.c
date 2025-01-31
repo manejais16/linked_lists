@@ -6,10 +6,11 @@
 /*   By: kzarins <kzarins@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/31 13:51:16 by kzarins           #+#    #+#             */
-/*   Updated: 2025/01/31 13:53:38 by kzarins          ###   ########.fr       */
+/*   Updated: 2025/01/31 14:21:06 by kzarins          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
 #include "ft_ll.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -42,3 +43,4 @@ int	main(void)
 	}
 	return (EXIT_SUCCESS);
 }
+*/
