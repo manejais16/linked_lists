@@ -67,8 +67,12 @@ void	delete_ll_all(t_node **head)
 {
 	t_node	*previous;
 
+	if (!head)
+		return ;
 	while ((*head)->next)
 	{
+		if ((*head)->value)
+			free((*head)->value);
 		previous = *head;
 		*head = (*head)->next;
 		free(previous);
