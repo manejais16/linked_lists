@@ -72,11 +72,15 @@ void	delete_ll_all(t_node **head)
 	while ((*head)->next)
 	{
 		if ((*head)->value)
+		{
 			free((*head)->value);
+		}
 		previous = *head;
 		*head = (*head)->next;
 		free(previous);
 	}
+	if ((*head)->value)
+		free((*head)->value);
 	free(*head);
 	*head = NULL;
 }
